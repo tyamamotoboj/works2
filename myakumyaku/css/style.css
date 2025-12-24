@@ -1,0 +1,436 @@
+@charset "utf-8";
+
+body {
+  background-image: url(../images/bg.png);
+  
+  
+  font-family:  'ヒカリ角ゴ Extended Book', 'Arial','Hiragino Sans';
+  color: #828487;
+
+}
+
+
+ div {
+        border-radius: 50%;
+     }
+
+
+        #cell1_A {
+            position: absolute;
+            width: 85px;
+            height: 85px;
+            left: 234px;
+            top: 252px;
+            background: #E60012;
+        }
+
+        #cell1_B {
+            position: absolute;
+            width: 29px;
+            height: 29px;
+            left: 258px;
+            top: 296px;
+            background: #fff;
+        }
+
+        #cell1_C {
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            left: 266px;
+            top: 311px;
+            background: #0068B7;
+
+            animation: guragura 1s ease-in infinite alternate;
+            transform-origin:top center;
+            animation-delay: 10s;
+        }
+
+        #cell2 {
+            position: absolute;
+            width: 62px;
+            height: 62px;
+            left: 186px;
+            top: 257px;
+            background: #E60012;
+
+            animation: purupuru 2.5s infinite;
+            opacity: 1;
+            animation-delay: 10s;
+
+        }
+
+        #cell3 {
+            position: absolute;
+            width: 45px;
+            height: 74px;
+            left: 166px;
+            top: 206px;
+            background: #E60012;
+        }
+
+        #cell4_A {
+            position: absolute;
+            width: 81px;
+            height: 81px;
+            left: 123px;
+            top: 153px;
+            background: #E60012;
+        }
+
+        #cell4_B {
+            position: absolute;
+            width: 35px;
+            height: 35px;
+            left: 157px;
+            top: 181px;
+            background: #FFFFFF;
+        }
+
+        #cell4_C {
+            position: absolute;
+            width: 17px;
+            height: 17px;
+            left: 165px;
+            top: 181px;
+            background: #0068B7;
+
+            transform-origin:bottom center;
+            animation: rotation 1.5s linear infinite;
+            animation-delay: 10s; 
+        }
+
+        #cell5 {
+            position: absolute;
+            width: 58px;
+            height: 58px;
+            left: 171px;
+            top: 114px;
+            background: #E60012;
+        }
+
+        #cell5_copy {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            left: 165px;
+            top: 150px;
+            background: #E60012;            
+        }
+
+        #cell6_A {
+            position: absolute;
+            width: 67px;
+            height: 67px;
+            left: 119px;
+            top: 92px;
+            background: #E60012;
+        }
+
+        #cell6_B {
+            position: absolute;
+            width: 35px;
+            height: 35px;
+            left: 127px;
+            top: 105px;
+            background: #FFFFFF;
+        }
+
+        #cell6_C {
+            position: absolute;
+            width: 17px;
+            height: 17px;
+            left: 127px;
+            top: 114px;
+            background: #0068B7; 
+
+            transform-origin:right center;
+            animation: rotation 1s ease infinite alternate;
+            animation-delay: 10s;
+
+        }
+
+
+        #cell7 {
+            position: absolute;
+            width: 65px;
+            height: 65px;
+            left: 169px;
+            top: 60px;
+            background: #E60012;
+
+            animation: quickening 5s ease-in infinite;
+            opacity: 1;
+
+        }
+
+        #cell8 {
+            position: absolute;
+            width: 71px;
+            height: 71px;
+            left: 209px;
+            top: 25px;
+            background: #E60012;
+
+            animation: quickening 3s ease-in infinite;
+            animation-delay: 10s;
+        }
+
+        #cell9_A {
+            position: absolute;
+            width: 93px;
+            height: 93px;
+            left: 272px;
+            top: 26px;
+            background: #E60012;
+
+            animation: purupuru 1.5s infinite;
+            opacity: 1;
+            animation-delay: 10s;
+        }
+
+        #cell9_B {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            left: 307px;
+            top: 35px;
+            background: #FFFFFF;
+        }
+
+        #cell9_C {
+            position: absolute;
+            width: 18px;
+            height: 18px;
+            left: 325px;
+            top: 38px;
+            background: #0068B7;
+
+            animation: gyorogyoro 3s ease-in-out infinite alternate;
+            transition: 1.5s ease-in-out;
+            animation-delay: 10s;    
+        }
+ 
+                @keyframes gyorogyoro {
+                    0% {
+                        transform:translate(0, 0) rotate(-9deg) scale(1.0);
+                    }
+                    40%, 60%, 80% {
+                        transform:scale(1.0);
+                    }
+
+                    50% {
+                        transform:translate(-8px, 20px) rotate(0deg)  scale(0.9);
+                    }
+
+                    70% {
+                        transform: scale(0.75);
+                    }
+
+                    100% {
+                        transform:translate(0, 0) rotate(9deg);
+                    }
+                }
+
+
+        #cell10 {
+            position: absolute;
+            width: 108px;
+            height: 51px;
+            left: 295px;
+            top: 101px;
+            background: #E60012;
+
+            animation: guragura 2.5s ease infinite alternate;
+            animation-delay: 10s; 
+
+        }
+
+        #cell11 {
+            position: absolute;
+            width: 67px;
+            height: 75px;
+            left: 312px;
+            top: 138px;
+            background: #E60012;
+            animation: quickening 4s ease-in-out infinite;
+            animation-delay: 10s;
+        }
+
+        #cell12_A {
+            position: absolute;
+            width: 102px;
+            height: 88px;
+            left: 286px;
+            top: 203px;
+            background: #E60012;
+
+            animation: quickening 2s ease-in-out infinite;
+            opacity: 1;
+            animation-delay: 10s;
+
+        }
+
+        #cell12_B {
+            position: absolute;
+            width: 49px;
+            height: 43px;
+            left: 332px;
+            top: 229px;
+            background: #FFFFFF;
+        }
+
+        #cell12_C {
+            position: absolute;
+            width: 20px;
+            height: 19px;
+            left: 359px;
+            top: 236px;
+            background: #0068B7;
+            animation: zoomIn 1.5s cubic-bezier(0.25, 1, 0.5, 1) infinite alternate;
+             animation-delay: 10s;
+        
+        }
+            
+                @keyframes zoomIn {
+                0% {
+                    transform: scale(0.8);
+                }
+                100% {
+                    transform: scale(1);
+                }
+        }
+
+
+        
+
+    #text {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        width:400px;
+        margin: 0px 0px 0px 0px;
+        
+              }
+
+/*　TMマーク　*/    
+    #TM-mark {
+        margin: 300px 0px 0px 340px;
+        font-size: 6pt;
+    }
+
+
+#text-EXPO :hover  {            
+                               
+        animation: quickening 1s ease-in infinite;
+        
+}
+
+    
+
+    #text-EXPO { 
+        text-align: left;
+        
+                margin: 75px 0px 0px 100px;
+                width: 220px;
+                
+                /*text-align-last: justify;*/
+             
+    }
+              
+
+
+
+           
+
+    #text-EXPO p {
+                display:block;
+                line-height: 0.9;
+                width: 300px;  
+
+                font-size: 14pt;
+                /*background-color: beige;
+
+                font-family:  'ヒカリ角ゴ Wide Book';*/
+                font-weight: bold;
+                letter-spacing: 0.1em;
+    }
+              
+
+    #text-EXPO H1 {
+        line-height: 1;
+        
+        font-size: 65pt;
+        color: #E60012;
+        /*background-color: beige;*/
+        
+        font-weight: 500;
+        margin-left: -4px;
+        letter-spacing: 0.1em;
+    }
+
+    #text-EXPO  H2 {
+        line-height: 0.72;
+        margin-left: -1px;
+        font-size: 75pt;
+        color: #0068B7;
+        /*background-color: beige;*/
+        
+        letter-spacing: 0.13em;
+    }
+            
+
+
+
+
+
+
+/*----animation----*/
+@keyframes quickening {
+    0%, 40%, 60%, 80% {
+        transform: scale(1.0);
+    }
+    50%, 70% {
+        transform: scale(0.95);
+    }
+}
+
+
+@keyframes rotation{
+    0%{ transform:rotate(0);}
+    100%{ transform:rotate(360deg); }
+}
+
+
+@keyframes guragura {
+    0%{ transform:rotate(-15deg);}
+    100%{ transform:rotate(15deg); }
+}
+
+
+@keyframes purupuru {
+    0%, 40% {
+        transform: skew(0deg, 0deg);
+    }
+    5% {
+        transform: skew(5deg, 5deg);
+    }
+    10% {
+        transform: skew(-4deg, -4deg);
+    }
+    15% {
+        transform: skew(3deg, 3deg);
+    }
+    20% {
+        transform: skew(-2deg, -2deg);
+    }
+    25% {
+        transform: skew(1deg, 1deg);
+    }
+    30% {
+        transform: skew(-0.6deg, -0.6deg);
+    }
+    35% {
+        transform: skew(0.3deg, 0.3deg);
+    }
+}
